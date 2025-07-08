@@ -84,7 +84,7 @@ const Quiz: React.FC = () => {
   const progressPercentage = ((currentQuestionIndex + 1) / questions.length) * 100;
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md animate-fade animate-once animate-duration-500">
+    <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md animate-fade animate-once animate-duration-500 z-10">
       {/* Progress Bar and Timer */}
       <div className="mb-6">
         <div className="w-full bg-gray-200 rounded-full h-2.5">
