@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+.pnp*
+yarn-error.log
+npm-debug.log
+
+# Build outputs
+dist/
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
