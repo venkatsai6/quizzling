@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Quizzling
+
+A dynamic, AI-inspired quiz game built with modern web technologies, performance optimization and backend integration. This project features a responsive UI, smooth animations, a countdown timer, and a progress bar, with a scalable backend.
+
+## Features
+- **Interactive Quiz**: Multiple-choice questions with a 15-second timer per question, mimicking game-like pressure.
+- **Responsive UI**: Built with **Next.js**, **React**, and **Typescript** for type-safe, performant interfaces.
+- **Stylish Design**: Uses **Tailwind CSS 4** with animations (`fade`, `slide-in`, `scale-in`) for an immersive experience.
+- **Progress Bar**: Visualizes quiz progress with a gradient-filled bar.
+- **Backend Integration**: **Node.js** + **Express** with **PostgreSQL** to store and serve questions dynamically.
+- **Performance Optimized**: Leverages `React.memo` to minimize re-renders, aligning with Volley's focus on high-performance UIs.
+- **Accessibility**: Includes ARIA labels for better screen reader support.
+- **Reset Functionality**: "Play Again" button to restart the quiz.
+
+## Tech Stack
+- **Frontend**: Next.js, React, Typescript, Tailwind CSS 4, `@tailwindcss/animate`
+- **Backend**: Node.js, Express, PostgreSQL
+- **Tools**: Git, npm
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js (v18 or higher)
+- PostgreSQL (local or cloud instance)
+- Git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+ **Clone the Repository**:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
