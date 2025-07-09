@@ -8,12 +8,12 @@ A dynamic, AI-inspired quiz game built with modern web technologies, performance
 - **Stylish Design**: Uses **Tailwind CSS 4** with animations (`fade`, `slide-in`, `scale-in`) for an immersive experience.
 - **Progress Bar**: Visualizes quiz progress with a gradient-filled bar.
 - **Backend Integration**: **Node.js** + **Express** with **PostgreSQL** to store and serve questions dynamically.
-- **Performance Optimized**: Leverages `React.memo` to minimize re-renders, aligning with Volley's focus on high-performance UIs.
+- **Performance Optimized**: Leverages `React.memo` to minimize re-renders, focus on high-performance UIs.
 - **Accessibility**: Includes ARIA labels for better screen reader support.
 - **Reset Functionality**: "Play Again" button to restart the quiz.
 
 ## Tech Stack
-- **Frontend**: Next.js, React, Typescript, Tailwind CSS 4, `@tailwindcss/animate`
+- **Frontend**: Next.js, React, Typescript, Tailwind CSS 4
 - **Backend**: Node.js, Express, PostgreSQL
 - **Tools**: Git, npm
 
